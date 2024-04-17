@@ -1,0 +1,59 @@
+/* External CSS */
+body {
+    background-color: #f0f0f0; /* Warna latar belakang */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Menghapus margin default pada body */
+}
+
+header {
+    background-color: #4a646c; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+hr {
+    border-color: #fff; /* Warna garis horizontal */
+}
+
+.content {
+    display: flex;
+    justify-content: center; /* Pusatkan konten */
+    margin-top: 20px;
+}
+
+.music-info {
+    position: relative; /* Relatif untuk posisi deskripsi */
+    margin: 0 10px; /* Margin antara gambar */
+}
+
+.music-info img {
+    width: 230px; /* Lebar gambar */
+    height: 180px; /* Tinggi otomatis */
+    display: block; /* Atur tampilan gambar menjadi blok */
+    border: 2px solid black; /* Garis hitam di sekeliling gambar */
+}
+
+
+
+.description {
+    position: absolute; /* Absolut untuk posisi di bawah gambar */
+    bottom: -174px; /* Menempatkan deskripsi di bagian bawah gambar */
+    left: 0; /* Menempatkan deskripsi di kiri */
+    width: 100%; /* Lebar 100% dari parent */
+    background-color: #F0FFFF; /* Warna latar belakang deskripsi */
+    text-align: center; /* Teks di tengah */
+    border:1px solid black; /* Garis hitam di sekeliling deskripsi */
+
+}
+
+p {
+    background-color:   #4a646c; /* Warna latar belakang abu-abu gelap */
+    color: #fff; /* Warna teks putih */
+    padding: 20px; /* Padding untuk ruang di dalam kotak */
+    margin-top: 195px; /* Jarak atas dari konten di atasnya */
+}
